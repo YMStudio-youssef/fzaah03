@@ -141,11 +141,6 @@ header nav .right .menu-bar {
 .profile-icon:hover .dropdown-menu {
     display: block !important;
 }
-@media (max-width: 575.98px) {
-    header nav .center {
-      display: none;
-    }
-}
 
 @media (max-width: 992px){
     header .center{
@@ -153,6 +148,11 @@ header nav .right .menu-bar {
     }
     header nav .right .menu-bar {
         display: block;
+    }
+}
+@media (min-width: 993px){
+    header nav .responsive-menu{
+        display: none !important;
     }
 }
 /* End Header */

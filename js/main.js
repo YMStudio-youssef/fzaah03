@@ -8,4 +8,8 @@ $(document).ready(function() {
   $(".menu-bar").click(function() {
     toggleMenu();
   });
+
+  $(window).resize(function () {
+    $('.responsive-menu').hide()
+  })
 });
